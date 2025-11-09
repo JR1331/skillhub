@@ -1,0 +1,20 @@
+# Java / Maven
+target/
+.mvn/
+**/logs/
+*.iml
+.idea/
+
+# Node / Angular
+node_modules/
+dist/
+.angular/
+.npm/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Env / secrets
+.env
+**/application-*.yml.local
