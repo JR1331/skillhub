@@ -1,0 +1,26 @@
+databaseChangeLog:
+  - changeSet:
+      id: 003-1
+      author: jaime
+      changes:
+        - insert:
+            tableName: curso
+            columns:
+              - column: { name: titulo, value: "Java Fundamentals" }
+              - column: { name: descripcion, value: "Curso base de Java y OOP" }
+              - column: { name: duracion_horas, valueNumeric: 20 }
+              - column: { name: publicado, valueNumeric: 1 }
+        - insert:
+            tableName: curso
+            columns:
+              - column: { name: titulo, value: "Spring Boot REST" }
+              - column: { name: descripcion, value: "APIs REST con Spring Boot y buenas prácticas" }
+              - column: { name: duracion_horas, valueNumeric: 16 }
+              - column: { name: publicado, valueNumeric: 1 }
+        - insert:
+            tableName: curso
+            columns:
+              - column: { name: titulo, value: "Angular para Backend Devs" }
+              - column: { name: descripcion, value: "Angular básico para consumir APIs y crear componentes" }
+              - column: { name: duracion_horas, valueNumeric: 14 }
+              - column: { name: publicado, valueNumeric: 0 }
