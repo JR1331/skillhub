@@ -5,4 +5,5 @@
       file: db/changelog/changes/002-curso-schema.yaml
   - include:
       file: db/changelog/changes/003-curso-seed.yaml
-
+  - include:
+      file: db/changelog/changes/004-usuario-schema.yaml
